@@ -7,3 +7,7 @@ $	git config --global user.email "Meu Email"
 $	git config user.name
 $	git config user.email
 ```
+#### Iniciando o repositório
+```git
+$	git init
+```
