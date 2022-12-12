@@ -11,3 +11,9 @@ $	git config user.email
 ```git
 $	git init
 ```
+#### Salvando e fazendo commit
+```
+$	git status
+$	git add 		#Adiciona as modificações feitas no arquivo
+$	$ git commit -m "Adicionar mensagem"
+```
