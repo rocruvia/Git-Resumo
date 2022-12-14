@@ -22,7 +22,16 @@ $	git commit -m "Adicionar mensagem"
 $	git log
 $	git log --decorate
 $	git log --author="Nome do Autor"
-$	git shortlog 			   	#Versão resumida por autor
-$	git log --graph			   #Mostra de forma gráfica os commits
-$	git show hash_do_commit 	#Mostra as alterações daquele commit
+# Versão resumida por autor
+$	git shortlog 	
+# Mostra de forma gráfica os commits
+$	git log --graph
+# Mostra as alterações daquele commit
+$	git show hash_do_commit 	
+```
+#### Comparação de mudanças
+``` git
+$	git diff
+# Mostra apenas os nomes dos arquivos modificados
+$	git diff -name-only
 ```
