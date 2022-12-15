@@ -14,7 +14,10 @@ $	git init
 #### Salvando e fazendo commit
 ```
 $	git status
-$	git add 		#Adiciona as modificações feitas no arquivo
+#Adiciona as modificações feitas no arquivo
+$	git add nomed_do_arquivo		
+#Adiciona as modificações feitas em todos os arquivo
+$	git add .
 $	git commit -m "Adicionar mensagem"
 ```
 #### Logs
@@ -34,4 +37,17 @@ $	git show hash_do_commit
 $	git diff
 # Mostra apenas os nomes dos arquivos modificados
 $	git diff -name-only
+```
+#### Desfazendo mudanças
+``` git
+# Retorna a versão anterior (não pode estar no stage)
+$	git checkout nome_do_arquivo
+# Retira o arquivo do stage
+$ 	git reset nome_do_arquivo
+# Retorna para o status stage
+$	git reset --soft hash_do_commit
+# Retorna para o status antes do stage
+$	git reset --mixed hash_do_commit
+# Desfaz TODAS as modificações
+$	git reset --hard hash_do_commit
 ```
