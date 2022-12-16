@@ -51,3 +51,9 @@ $	git reset --mixed hash_do_commit
 # Desfaz TODAS as modificações
 $	git reset --hard hash_do_commit
 ```
+#### Conectando o repositório local ao remoto
+```git
+$	git remote add origin link_do_repositório
+# Normalmente o repositório remoto será origin e a branch main/master
+$	git push <repositório_remoto> <sua_branch>
+```
