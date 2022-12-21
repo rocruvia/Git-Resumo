@@ -1,4 +1,5 @@
 
+
 ## Resumo Git
 Esse repositório tem o obejetivo de ser uma fonte rápida de revisão dos principais comandos Git.
 #### Configurações Iniciais Git
@@ -16,7 +17,7 @@ $	git init
 ```
 $	git status
 
-#Adiciona as modificações feitas no arquivo
+#Adiciona as modificações feitas no arquivo / move o arquivos para o staging
 $	git add nomed_do_arquivo		
 
 #Adiciona as modificações feitas em todos os arquivo
@@ -51,7 +52,7 @@ $	git diff -name-only
 $	git checkout <nome_do_arquivo>
 
 # Retira o arquivo do stage
-$ git reset <nome_do_arquivo>
+$  git reset <nome_do_arquivo>
 
 # Retorna para o status stage
 $	git reset --soft <hash_do_commit>
@@ -64,12 +65,20 @@ $	git reset --hard <hash_do_commit>
 ```
 #### Conectando o repositório local ao remoto
 ```git
-$	git remote add origin link_do_repositório
+$	git remote add origin <link_do_repositório>
 
 # Normalmente o repositório remoto será origin e a branch main/master
-$	git push <repositório_remoto> <sua_branch>
+$	git push <repositório remoto> <sua_branch>
 ```
 #### Clonando repositórios
 ```git
-git clone <link do repositório>
+$	git clone <link do repositório>
+```
+#### Branch
+```
+# Criando uma branch
+$ git checkout -b <nome do branch>
+
+# Visualizando as branchs existentes
+$ git branch
 ```
