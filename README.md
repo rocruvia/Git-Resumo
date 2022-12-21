@@ -75,7 +75,7 @@ $	git push <repositório remoto> <sua_branch>
 $	git clone <link do repositório>
 ```
 #### Branch
-```
+```git
 # Criando uma branch
 $   git checkout -b <nome do branch>
 
