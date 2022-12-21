@@ -52,7 +52,7 @@ $	git diff -name-only
 $	git checkout <nome_do_arquivo>
 
 # Retira o arquivo do stage
-$  git reset <nome_do_arquivo>
+$   git reset <nome_do_arquivo>
 
 # Retorna para o status stage
 $	git reset --soft <hash_do_commit>
@@ -77,8 +77,8 @@ $	git clone <link do repositório>
 #### Branch
 ```
 # Criando uma branch
-$ git checkout -b <nome do branch>
+$   git checkout -b <nome do branch>
 
 # Visualizando as branchs existentes
-$ git branch
+$   git branch
 ```
