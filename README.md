@@ -77,7 +77,7 @@ $	git clone <link do repositório>
 #### Branch
 ```git
 # Criando uma branch
-$   git checkout -b <nome da branch>
+$  git checkout -b <nome da branch>
 
 # Visualizando as branchs existentes
 $   git branch
