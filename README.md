@@ -83,8 +83,8 @@ $   git checkout -b <nome da branch>
 $   git branch
 
 # Mudando de banch
-$ git  checkout <nome da branch>
+$   git  checkout <nome da branch>
 
 # Deletando uma banch
-$ git banch -D <nome da branch>
+$   git banch -D <nome da branch>
 ```
