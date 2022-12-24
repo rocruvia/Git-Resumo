@@ -72,7 +72,7 @@ $	git push <repositório remoto> <sua_branch>
 ```
 #### Clonando repositórios
 ```git
-$git clone <link do repositório>
+$ git clone <link do repositório>
 ```
 #### Branch
 ```git
