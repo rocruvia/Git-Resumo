@@ -88,3 +88,13 @@ $   git  checkout <nome da branch>
 # Deletando uma banch
 $   git banch -D <nome da branch>
 ```
+
+#### Merge e Rebase
+```git
+# Cria um commit extra e fecha o "ciclo"
+git merge <nome da branch com que será feito o merge>
+
+# Não cria um commit extra e lineariza a junção
+git rebase <nome da branch com que será feito o merge>
+```
+
