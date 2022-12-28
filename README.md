@@ -92,9 +92,20 @@ $   git banch -D <nome da branch>
 #### Merge e Rebase
 ```git
 # Cria um commit extra e fecha o "ciclo"
-git merge <nome da branch com que será feito o merge>
+$   git merge <nome da branch com que será feito o merge>
 
 # Não cria um commit extra e lineariza a junção
-git rebase <nome da branch com que será feito o merge>
+$   git rebase <nome da branch com que será feito o merge>
+```
+
+#### Tags
+```git
+# Marca os realeases / versões do código
+$   git tag -a <1.0.0(exemplo)> -m <mensagem>
+
+$   git push origin master --tags
+
+# Visualização das tags
+$   git tag
 ```
 
